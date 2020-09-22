@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "outDir": "types",
+      "noImplicitAny": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "lib": ["ES6","ES2017","DOM"],
+      "allowSyntheticDefaultImports": true
+    },
+    "exclude":["node_modules","build","dist"]
+  }
